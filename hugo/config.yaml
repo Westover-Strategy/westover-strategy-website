@@ -1,0 +1,28 @@
+---
+# Site
+baseurl: "http://change-me.dev"
+title: "Blaupause"
+enableRobotsTXT: true
+googleAnalytics: ""
+# Content
+languageCode: "en-us"
+defaultContentLanguage: "en"
+enableMissingTranslationPlaceholders: false
+paginate: 10
+# Directories
+archetypeDir: "archetypes"
+contentDir: "content"
+dataDir: "data"
+layoutDir: "layouts"
+# Formats
+defaultExtension: "html"
+metaDataFormat: "yaml"
+# Params
+params:
+  blaupause:
+    useModernizr: false
+# DO NOT CHANGE BELOW THIS LINE
+# -----------------------------
+disableLiveReload: true
+watch: false
+---
