@@ -2,6 +2,7 @@ const argv = require('yargs').boolean('p').argv;
 const gulp = require('gulp');
 const revReplace = require('gulp-rev-replace');
 const path = require('path');
+const fs = require('fs');
 const cfg = require('../config');
 
 /**
@@ -15,6 +16,13 @@ const manifest = gulp.src(`${path.join(process.cwd(), cfg.assetPath)}/rev-manife
 
 gulp.task('hash-replace', () => {
   if (isProduction) {
+    
+    fs.readdir(path.join(process.cwd(), cfg.assetPath), (err, files) => {
+      files.forEach(file => {
+        console.log(file);
+      });
+    })
+
     console.log("base", path.join(process.cwd(), cfg.assetPath));
     // console.log(`./${cfg.assetPath}/rev-manifest.json`);
     console.log(manifest);
