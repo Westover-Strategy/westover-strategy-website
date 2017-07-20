@@ -14,6 +14,7 @@ const manifest = gulp.src(`${cfg.assetPath}/rev-manifest.json`);
 
 gulp.task('hash-replace', () => {
   if (isProduction) {
+    console.log(manifest);
     return gulp.src([
       `${cfg.destinationPath}/**/*.html`,
       `${cfg.destinationPath}/**/*.xml`,
