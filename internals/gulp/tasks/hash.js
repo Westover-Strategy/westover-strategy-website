@@ -14,6 +14,7 @@ const isProduction = argv.p;
 
 gulp.task('hash', () => {
   if (isProduction) {
+    console.log("base", path.join(process.cwd(), cfg.assetPath));
     return gulp.src([
       `${cfg.styles.destinationPath}/**`,
       `${cfg.scripts.destinationPath}/**`,
@@ -23,7 +24,7 @@ gulp.task('hash', () => {
       .pipe(clean())
       .pipe(rev())
       .pipe(gulp.dest(cfg.assetPath))
-      .pipe(rev.manifest())
+      .pipe(rev.manifest(`./${cfg.assetPath}/rev-manifest.json`, { base: path.join(process.cwd(), cfg.assetPath) } ))
       .pipe(gulp.dest(cfg.assetPath));
   }
   return 0;
