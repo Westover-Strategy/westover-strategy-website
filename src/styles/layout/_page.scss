@@ -1,0 +1,5 @@
+.page {
+  display: grid;
+  grid-template-columns: [content-start] 1fr 2fr 1fr [content-end];
+  grid-template-rows: [header] auto [main] auto [footer] auto;
+}

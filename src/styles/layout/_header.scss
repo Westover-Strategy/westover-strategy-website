@@ -1,6 +1,4 @@
-
-////
-/// Header
-/// MIT-License © 2016
-/// @author Felix Spöttel
-////
+.header {
+  grid-column: content-start / content-end;
+  grid-row: header;
+}

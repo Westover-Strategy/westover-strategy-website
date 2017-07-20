@@ -1,6 +1,4 @@
-
-////
-/// Footer
-/// MIT-License © 2016
-/// @author Felix Spöttel
-////
+.footer {
+  grid-column: content-start / content-end;
+  grid-row: footer;
+}

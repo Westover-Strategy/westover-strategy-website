@@ -1,10 +1,3 @@
-
-////
-/// Main
-/// MIT-License © 2016
-/// @author Felix Spöttel
-////
-
 // 1. Abstracts
 // The `abstracts`-folder gathers SASS tools and helpers used across the project.
 // Every global variable, function, mixin and placeholder should be put in here.
@@ -44,8 +37,11 @@
 // 5. Layout
 // Layouts organize the main parts of the page. Examples are headers, navbars or forms.
 @import
+  "layout/aside",
   "layout/header",
-  "layout/footer";
+  "layout/footer",
+  "layout/main",
+  "layout/page";
 
 // 6. Pages
 // The `pages`-folder contains page-specific styles that can't be fit into modules or partials.

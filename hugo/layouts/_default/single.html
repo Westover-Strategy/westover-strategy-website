@@ -1,7 +1,7 @@
-{{ partial "html_head" . }}
-<div class="page">
-  {{ partial "header" . }}
-  <main>{{ .Content }}</main>
-  {{ partial "footer" . }}
-</div>
-{{ partial "html_foot" . }}
+{{ define "main" }}
+  <article>
+    Section: {{ .Section }}
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </article>
+{{ end }}

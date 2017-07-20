@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <!-- Groups content according to the "client" field in front matter -->
+  {{ range .Data.Pages.GroupByParam "client" }}
+  <h3>{{ .Key }}</h3>
+  <ul>
+      {{ range .Pages }}
+      <li>
+      <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+      </li>
+      {{ end }}
+  </ul>
+  {{ end }}
+{{ end }}
