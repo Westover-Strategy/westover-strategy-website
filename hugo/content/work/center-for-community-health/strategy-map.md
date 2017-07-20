@@ -1,7 +1,7 @@
 ---
 title: "Center for Community Health Strategy Map"
 linktitle: "Strategy Map"
-draft: true
+draft: false
 client: "Center for Community Health"
 clientorder: 1
 ---

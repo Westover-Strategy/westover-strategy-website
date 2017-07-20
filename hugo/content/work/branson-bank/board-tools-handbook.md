@@ -1,7 +1,7 @@
 ---
 title: "Branson Bank High-Performing Board Tools and Handbook"
 linktitle: "High-Performing Board Tools and Handbook"
-draft: true
+draft: false
 client: "Branson Bank"
 clientorder: 0
 ---

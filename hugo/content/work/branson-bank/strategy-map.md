@@ -1,7 +1,7 @@
 ---
 title: "Branson Bank Strategy Map"
 linktitle: "Strategy Map"
-draft: true
+draft: false
 client: "Branson Bank"
 clientorder: 0
 ---
