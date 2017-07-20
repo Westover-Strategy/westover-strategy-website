@@ -3,15 +3,11 @@
   publish = "public"
   command = "gulp build -p"
 
-[environment]
-  HUGO_VERSION = "0.25"
-
 # Production context: All deploys to the main
 # repository branch will inherit these settings.
-# [context.production]
-#  command = "make production"
-#  [context.production.environment]
-#    ACCESS_TOKEN = "super secret"
+[context.production]
+  [context.production.environment]
+    HUGO_VERSION = "0.25"
 
 # Deploy Preview context: All Deploy Previews
 # will inherit these settings.
