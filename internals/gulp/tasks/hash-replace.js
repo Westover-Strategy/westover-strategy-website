@@ -12,10 +12,12 @@ const cfg = require('../config');
  */
 const isProduction = argv.p;
 
-const manifest = gulp.src(`${path.join(process.cwd(), cfg.assetPath)}/rev-manifest.json`);
+
 
 gulp.task('hash-replace', () => {
   if (isProduction) {
+
+    const manifest = gulp.src(`${path.join(process.cwd(), cfg.assetPath)}/rev-manifest.json`);
     
     fs.readdir(path.join(process.cwd(), cfg.assetPath), (err, files) => {
       files.forEach(file => {
