@@ -1,13 +1,19 @@
 {{ define "main" }}
   <!-- Groups content according to the "client" field in front matter -->
   {{ range .Data.Pages.GroupByParam "client" }}
-  <h3>{{ .Key }}</h3>
-  <ul>
-      {{ range .Pages }}
-      <li>
-      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-      </li>
-      {{ end }}
-  </ul>
+    <div class="client" id="{{ .Key | urlize }}">
+      <img src="/static/images/work/{{ .Key | urlize }}.jpg" srcset="/static/images/work/{{ .Key | urlize }}.jpg 1x, /static/images/work/{{ .Key | urlize }}@2x.jpg 2x" alt="{{ .Key }}"/>
+      <h2 class="client-name">{{ .Key }}</h2>
+      <ul class="client-work">
+          {{ range .Pages }}
+          <li>
+            <a href="{{ .RelPermalink }}">
+              <h3>{{ .LinkTitle }}</h3>
+              <p>{{ .Description }}</p>
+            </a>
+          </li>
+          {{ end }}
+      </ul>
+    </div>
   {{ end }}
 {{ end }}

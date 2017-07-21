@@ -28,4 +28,12 @@
   {{ end }}
   <script defer src="{{ "static/scripts/main.js" | relURL }}"></script>
 </head>
-<body>
+{{ $sectionclass := printf "%s%s" "section-" .Section | lower }}
+{{ $.Scratch.Set "bodyclass" $sectionclass }}
+{{ with .Params.bodyclasses }}
+  {{ $pageclasses := delimit . " " }}
+  {{ $bodyclass := $.Scratch.Get "bodyclass" }}
+  {{ $bodyclass := printf "%s %s" $bodyclass $pageclasses }}
+  {{ $.Scratch.Set "bodyclass" $bodyclass }}
+{{ end }}
+<body class="{{ $.Scratch.Get "bodyclass" }}">

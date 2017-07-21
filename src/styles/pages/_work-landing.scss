@@ -1,0 +1,33 @@
+.work-landing {
+  .main {
+    grid-column: 1 / -1;
+  }
+  .client {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+
+    img {
+      grid-column: 1 / -1;
+    }
+  }
+  .client-name {
+    // grid-column: 1 / -1;
+    // text-align: center;
+    grid-column: 2;
+  }
+  .client-work {
+    grid-column: 2;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 4%;
+    // justify-content: center;
+    // > li:first-child:last-child {
+    //   justify-self: center;
+    // }
+  }
+  .aside {
+    display: none;
+  }
+}
