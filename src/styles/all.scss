@@ -18,7 +18,9 @@
   // See: https://github.com/modularscale/modularscale-sass
   "node_modules/modularscale-sass/stylesheets/modularscale",
   // See: https://github.com/jonathantneal/sanitize.css
-  "node_modules/sanitize.css/sanitize";
+  "node_modules/sanitize.css/sanitize",
+  // https://github.com/zellwk/mappy-breakpoints,
+  "node_modules/mappy-breakpoints/mappy-breakpoints";
 
 // 3. Base
 // The `base`-folder holds the boilerplate code for the project.
@@ -32,12 +34,15 @@
 // Components are singular, composable abstractions. Examples of a component are buttons or data-tables.
 // Components do one thing and one thing only and should be re-usable.
 @import
-  "components/button";
+  "components/our-mission";
 
 // 5. Layout
 // Layouts organize the main parts of the page. Examples are headers, navbars or forms.
 @import
+  "layout/article",
   "layout/aside",
+  "layout/content-container",
+  "layout/content-header",
   "layout/header",
   "layout/footer",
   "layout/main",

@@ -1,6 +1,7 @@
 ---
 title: "Center for Community Health Strategy Map"
 linktitle: "Strategy Map"
+description: "See how Westover helped the Center for Community Health create a one-page Strategy Map to communicate its direction."
 draft: false
 client: "Center for Community Health"
 clientorder: 1

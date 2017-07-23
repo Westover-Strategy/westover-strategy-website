@@ -1,9 +1,10 @@
 ---
 title: "Branson Bank Strategy Map"
 linktitle: "Strategy Map"
+description: "A three-year Strategy Map developed with Westover helps the Branson Bank team focus on key objectives."
 draft: false
 client: "Branson Bank"
-clientorder: 0
+weight: 2
 ---
 ## Challenge
 At the suggestion of Board Chair Peter Peitz, Westover Strategy had been retained to develop a high-performance board toolset and handbook for Missouri-based Branson Bank. In the course of working with the board, Westover noted that the bank’s strategic plan had some gaps that should be addressed in parallel with the high-performance board project. 

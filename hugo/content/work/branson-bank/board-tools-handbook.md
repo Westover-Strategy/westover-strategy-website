@@ -1,9 +1,10 @@
 ---
 title: "Branson Bank High-Performing Board Tools and Handbook"
 linktitle: "High-Performing Board Tools and Handbook"
+description: "See how Westover developed a customized set of tools and practices for the Branson Bank board."
 draft: false
 client: "Branson Bank"
-clientorder: 0
+weight: 1
 ---
 ## Challenge
 Branson Bank Board Chair, Peter Peitz, proposed engaging a consultant to help the bank board become high-performing. A high-performing board would provide the bank a competitive advantage to continue its impressive growth, serve both its associates and its community and increase shareholder value. 

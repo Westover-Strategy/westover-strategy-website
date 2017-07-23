@@ -5,7 +5,7 @@
       <img src="/static/images/work/{{ .Key | urlize }}.jpg" srcset="/static/images/work/{{ .Key | urlize }}.jpg 1x, /static/images/work/{{ .Key | urlize }}@2x.jpg 2x" alt="{{ .Key }}"/>
       <h2 class="client-name">{{ .Key }}</h2>
       <ul class="client-work">
-          {{ range .Pages }}
+          {{ range .Pages.ByWeight }}
           <li>
             <a href="{{ .RelPermalink }}">
               <h3>{{ .LinkTitle }}</h3>

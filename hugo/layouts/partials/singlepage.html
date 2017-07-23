@@ -1,0 +1,21 @@
+{{ range .Data.Pages.ByWeight }}
+  {{ $section := .Section }}
+  <div class="content-container {{ .Title | urlize }}" id="{{ .Title | urlize }}">
+    <header class="content-header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.subtitle }}
+        <h2>{{ . }}</h2>
+      {{ end }}
+    </header>
+    <article class="content">
+      {{ .Content }}
+    </article>
+    {{ with .Params.aside }}
+      <aside class="aside">
+        {{ with .image }}
+          <img src="/static/images/{{ $section }}/{{ .name }}.{{ .format }}" srcset="/static/images/{{ $section }}/{{ .name }}.{{ .format }} 1x, /static/images/{{ $section }}/{{ .name }}@2x.{{ .format }} 2x" alt="{{ .alt }}" width="{{ .width }}" height="{{ .height }}"/>
+        {{ end }}
+      </aside> 
+    {{ end }}
+  </div>
+{{ end }}
