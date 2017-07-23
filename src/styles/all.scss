@@ -34,6 +34,7 @@
 // Components are singular, composable abstractions. Examples of a component are buttons or data-tables.
 // Components do one thing and one thing only and should be re-usable.
 @import
+  "components/feature-blocks",
   "components/our-mission";
 
 // 5. Layout

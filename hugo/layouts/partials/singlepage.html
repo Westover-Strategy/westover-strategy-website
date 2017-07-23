@@ -10,6 +10,16 @@
     <article class="content">
       {{ .Content }}
     </article>
+    {{ with .Params.featureblocks }}
+      <ul class="feature-blocks">
+        {{ range . }}
+          <li>
+            <h2 class="title">{{ .title }}</h2>
+            <p class="description">{{ .description }}</p>
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
     {{ with .Params.aside }}
       <aside class="aside">
         {{ with .image }}
