@@ -1,0 +1,22 @@
+.section-perspectives {
+  .main {
+    display: grid;
+    grid-gap: 50px;
+  }
+  .intro {
+    grid-column: 1 / -1;
+  }
+
+  @include mappy-bp(medium) {
+    // .main {
+    //   grid-template-columns: 4fr 4fr;
+    // }
+    .intro {
+      grid-column: 1 / 2;
+    }
+    .articles,
+    .books {
+      grid-row: 2;
+    }
+  }
+}

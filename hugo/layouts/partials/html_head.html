@@ -27,6 +27,7 @@
   <script defer src="{{ "static/scripts/vendor/modernizr-custom.js" | relURL }}"></script>
   {{ end }}
   <script defer src="{{ "static/scripts/main.js" | relURL }}"></script>
+  <script src="https://use.fontawesome.com/170b898517.js"></script>
 </head>
 {{ $sectionclass := printf "%s%s" "section-" .Section | lower }}
 {{ $.Scratch.Set "bodyclass" $sectionclass }}

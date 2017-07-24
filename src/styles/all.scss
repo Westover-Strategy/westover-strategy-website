@@ -35,7 +35,8 @@
 // Components do one thing and one thing only and should be re-usable.
 @import
   "components/feature-blocks",
-  "components/our-mission";
+  "components/our-mission",
+  "components/publications-list";
 
 // 5. Layout
 // Layouts organize the main parts of the page. Examples are headers, navbars or forms.
@@ -53,4 +54,5 @@
 // The `pages`-folder contains page-specific styles that can't be fit into modules or partials.
 @import
   "pages/home",
+  "pages/perspectives",
   "pages/work-landing";
