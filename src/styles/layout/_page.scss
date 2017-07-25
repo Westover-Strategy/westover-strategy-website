@@ -1,11 +1,4 @@
 .page {
-  // display: grid;
-  // grid-template-columns: [content-start] 1fr 6fr 1fr [content-end];
-  // grid-template-rows: [header] auto [main] auto [footer] auto;
   margin: 0 auto;
   max-width: 1400px;
-
-  // @include mappy-bp(medium) {
-  //   grid-template-columns: [content-start] 1fr 2fr 1fr [content-end];
-  // }
 }

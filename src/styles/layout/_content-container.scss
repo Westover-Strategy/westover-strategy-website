@@ -1,10 +1,13 @@
 .content-container {
   display: grid;
-  grid-template-columns: [content-start] 1fr 6fr 1fr [content-end];
+  grid-template-columns: 1em [content-start] repeat(3, 1fr) [halfway] repeat(3, 1fr) [content-end] 1em;
   grid-template-rows: [header] auto [content] auto [footer] auto;
 
   @include mappy-bp(medium) {
-    grid-template-columns: [content-start] 1fr 2fr 1fr [content-end];
-    grid-column-gap: 20px;
+    grid-template-columns: 1em 1fr [content-start] repeat(2, 1fr) [halfway] repeat(2, 1fr) [content-end] 1fr 1em;
+  }
+
+  @include mappy-bp(large) {
+    grid-template-columns: 1em repeat(3, 1fr) [content-start] repeat(3, 1fr) [halfway] repeat(3, 1fr) [content-end] repeat(3, 1fr) 1em;
   }
 }

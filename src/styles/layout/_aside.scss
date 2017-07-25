@@ -1,8 +1,8 @@
 .aside {
-  grid-column: 2;
+  grid-column: content-start / content-end;
 
   @include mappy-bp(medium) {
-    grid-column: 1;
+    grid-column: 2;
     grid-row: content;
   }
 }

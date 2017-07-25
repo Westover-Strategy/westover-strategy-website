@@ -1,22 +1,32 @@
 .section-perspectives {
-  .main {
-    display: grid;
-    grid-gap: 50px;
-  }
-  .intro {
-    grid-column: 1 / -1;
+  .intro,
+  .articles,
+  .books {
+    grid-column: content-start / content-end;
   }
 
   @include mappy-bp(medium) {
-    // .main {
-    //   grid-template-columns: 4fr 4fr;
-    // }
-    .intro {
-      grid-column: 1 / 2;
+    .content-container {
+      grid-column-gap: 1em;
     }
     .articles,
     .books {
       grid-row: 2;
+    }
+    .articles {
+      grid-column: 2 / span 3;
+    }
+    .books {
+      grid-column: halfway / span 3;
+    }
+  }
+
+  @include mappy-bp(large) {
+    .articles {
+      grid-column: 3 / span 4;
+    }
+    .books {
+      grid-column: halfway / span 4;
     }
   }
 }

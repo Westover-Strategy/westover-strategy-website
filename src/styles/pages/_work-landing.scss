@@ -1,27 +1,30 @@
 .work-landing {
   .client {
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1em [content-start] 1fr 6fr 1fr [content-end] 1em;
 
     img {
       grid-column: 1 / -1;
     }
+
+    @include mappy-bp(medium) {
+      grid-template-columns: 1em 1fr [content-start] 4fr [content-end] 1fr 1em;
+    }
   }
   .client-name {
-    // grid-column: 1 / -1;
-    // text-align: center;
-    grid-column: 2;
+    grid-column: content-start / content-end;
   }
   .client-work {
-    grid-column: 2;
+    grid-column: content-start / content-end;
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 4%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
     // justify-content: center;
     // > li:first-child:last-child {
-    //   justify-self: center;
+      // justify-self: center;
+      // max-width: 50%;
     // }
   }
   .aside {
