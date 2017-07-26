@@ -38,7 +38,6 @@
     "eslint-plugin-import": "^2.2.0",
     "glob": "^7.1.2",
     "gulp": "^3.9.1",
-    "gulp-clean": "^0.3.2",
     "gulp-htmlhint": "^0.3.1",
     "gulp-htmlmin": "^3.0.0",
     "gulp-if": "^2.0.2",
@@ -58,6 +57,7 @@
     "stylelint": "^7.11.1",
     "stylelint-config-standard": "^16.0.0",
     "vinyl-named": "^1.1.0",
+    "vinyl-paths": "^2.1.0",
     "webpack": "^3.0.0",
     "webpack-stream": "^3.2.0",
     "yargs": "^8.0.2"

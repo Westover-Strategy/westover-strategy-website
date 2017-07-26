@@ -1,6 +1,7 @@
 const gulp = require('gulp');
+const del = require('del');
+const vinylPaths = require('vinyl-paths');
 const rev = require('gulp-rev');
-const clean = require('gulp-clean');
 const path = require('path');
 const cfg = require('../config');
 
@@ -11,7 +12,7 @@ gulp.task('hash', () =>
     `${cfg.images.destinationPath}/**`,
     `${cfg.svg.destinationPath}/**`
   ], { base: path.join(process.cwd(), cfg.assetPath) })
-    .pipe(clean())
+    .pipe(vinylPaths(del))
     .pipe(rev())
     .pipe(gulp.dest(cfg.assetPath))
     .pipe(rev.manifest())
