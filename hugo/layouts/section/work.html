@@ -3,13 +3,13 @@
   {{ range .Data.Pages.GroupByParam "client" }}
     <div class="client" id="{{ .Key | urlize }}">
       <img src="/static/images/work/{{ .Key | urlize }}.jpg" srcset="/static/images/work/{{ .Key | urlize }}.jpg 1x, /static/images/work/{{ .Key | urlize }}@2x.jpg 2x" alt="{{ .Key }}"/>
-      <h2 class="client-name">{{ .Key }}</h2>
+      <h1 class="client-name">{{ .Key }}</h1>
       <ul class="client-work">
           {{ range .Pages.ByWeight }}
           <li>
             <a href="{{ .RelPermalink }}">
               <h3>{{ .LinkTitle }}</h3>
-              <p>{{ .Description }}</p>
+              <p>{{ .Description }} <i class="fa fa-chevron-right" aria-hidden="true"></i></p>
             </a>
           </li>
           {{ end }}

@@ -6,7 +6,7 @@
     <!-- Groups content according to the "publicationtype" field in front matter -->
     {{ range .Data.Pages.GroupByParam "type" }}
       <div class="{{ .Key | urlize | pluralize }}" id="{{ .Key | urlize | pluralize }}">
-        <h2 class="publication-type">{{ .Key | pluralize | title }}</h2>
+        <h1 class="publication-type">{{ .Key | pluralize | title }}</h1>
         <ul class="publications-list">
             {{ range .Pages.ByDate.Reverse }}
             {{ $title := .Title }}

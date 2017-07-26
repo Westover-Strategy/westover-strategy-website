@@ -1,8 +1,32 @@
 @include webfont('JensenRecut-Regular', 'JensonRecut-Regular-webfont', normal);
 
 body {
-  background-color: $color-background;
+  // background-color: $color-background;
+  background-image: linear-gradient(to bottom, $color-background-header 52px, $color-background 52px);
   color: $color-text;
   font-family: $text-font-stack;
+  @include ms-respond(font-size, 0);
   line-height: $text-line-height;
+}
+
+h3 {
+  @include ms-respond(font-size, 1);
+  margin: 0;
+}
+
+h2 {
+  @include ms-respond(font-size, 2);
+  margin: 0;
+  font-weight: normal;
+}
+
+h1 {
+  @include ms-respond(font-size, 3);
+  margin: 0 0 0.5em 0;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+p {
+  margin: 0 0 1em 0;
 }

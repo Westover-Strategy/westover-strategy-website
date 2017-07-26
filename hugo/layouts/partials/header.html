@@ -1,6 +1,12 @@
 <header class="site-header">
   <a href="/" class="site-title">{{ .Site.Title }}</a>
-  <nav class="primary-nav">
+  <button class="hamburger hamburger--minus" type="button" aria-label="Menu" aria-controls="navigation">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+    <!-- <span class="hamburger-label">Menu</span> -->
+  </button>
+  <nav id="navigation" class="primary-nav">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
       <a class="primary-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>

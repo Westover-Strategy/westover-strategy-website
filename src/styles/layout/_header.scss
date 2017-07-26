@@ -1,16 +1,57 @@
 .site-header {
   // grid-column: content-start / content-end;
   // grid-row: header;
+  margin-bottom: 1em;
 }
 
 .site-title {
   display: block;
   font-family: 'JensenRecut-Regular';
-  font-size: 30px;
+  font-size: 18px;
   line-height: 40px;
-  background-image: url('/static/images/swan.png');
-  background-size: 127px;
-  padding: 50px 0 54px 170px;
   text-decoration: none;
   color: #000;
+  background-image: url('/static/images/swan.png');
+  background-size: 60px;
+  background-position: 10px 10px;
+  padding: 18px 0 20px 86px;
+
+  @include mappy-bp(medium) {
+    font-size: 30px;
+    background-size: 127px;
+    padding: 50px 0 54px 170px;
+  }
+}
+
+.primary-nav {
+  display: none;
+  margin-top: -26px;
+  > a {
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    color: #2f424c;
+    padding: 7px 20px;
+    &:hover {
+      background-color: darken($color-background-header, 20%);
+    }
+    &:active,
+    &.active {
+      background-color: lighten($color-background-header, 10%);
+    }
+  }
+  &.is-active {
+    display: block;
+  }
+}
+
+.hamburger {
+  position: absolute;
+  right: 0;
+  top: 14px;
+}
+
+.hamburger-label {
+  display: block;
+  font-size: 12px;
 }

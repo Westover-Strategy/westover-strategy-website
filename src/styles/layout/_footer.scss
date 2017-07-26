@@ -2,5 +2,5 @@
   // grid-column: content-start / content-end;
   // grid-row: footer;
   margin: 2em 1em 1em 1em;
-  font-size: 80%;
+  @include ms-respond(font-size, -1);
 }

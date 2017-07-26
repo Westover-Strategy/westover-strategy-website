@@ -20,7 +20,9 @@
   // See: https://github.com/jonathantneal/sanitize.css
   "node_modules/sanitize.css/sanitize",
   // https://github.com/zellwk/mappy-breakpoints,
-  "node_modules/mappy-breakpoints/mappy-breakpoints";
+  "node_modules/mappy-breakpoints/mappy-breakpoints",
+  // https://jonsuh.com/hamburgers/
+  "node_modules/hamburgers/_sass/hamburgers/hamburgers";
 
 // 3. Base
 // The `base`-folder holds the boilerplate code for the project.
@@ -36,7 +38,8 @@
 @import
   "components/feature-blocks",
   "components/our-mission",
-  "components/publications-list";
+  "components/publications-list",
+  "components/susan-byrd";
 
 // 5. Layout
 // Layouts organize the main parts of the page. Examples are headers, navbars or forms.

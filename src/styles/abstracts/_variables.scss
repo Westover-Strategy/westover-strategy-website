@@ -30,6 +30,7 @@ $text-line-height: 1.5 !default;
 /// Background color
 /// @type {Color}
 $color-background: #D7DBDF !default;
+$color-background-header: rgb(239, 242, 244);
 
 /// Copy text-color
 /// @type {Color}
@@ -52,3 +53,22 @@ $path-webfonts: "webfonts/" !default;
 /// Image-path prefix
 /// @type {String}
 $path-images: "../images/" !default;
+
+// Hamburger menu
+$hamburger-types: (minus);
+$hamburger-layer-width: 30px;
+$hamburger-layer-height : 3px;
+$hamburger-layer-spacing: 4px;
+
+// Modular scale
+$modularscale: (
+  base: 14px,
+  ratio: 1.5,
+  740px: (
+    ratio: 1.2,
+  ),
+  1020px: (
+    base: 16px,
+    ratio: 1.3,
+  ),
+);
