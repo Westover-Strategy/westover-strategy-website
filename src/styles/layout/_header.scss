@@ -2,3 +2,15 @@
   // grid-column: content-start / content-end;
   // grid-row: header;
 }
+
+.site-title {
+  display: block;
+  font-family: 'JensenRecut-Regular';
+  font-size: 30px;
+  line-height: 40px;
+  background-image: url('/static/images/swan.png');
+  background-size: 127px;
+  padding: 50px 0 54px 170px;
+  text-decoration: none;
+  color: #000;
+}

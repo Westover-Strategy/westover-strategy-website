@@ -1,9 +1,4 @@
-
-////
-/// Typography
-/// MIT-License © 2016
-/// @author Felix Spöttel
-////
+@include webfont('JensenRecut-Regular', 'JensonRecut-Regular-webfont', normal);
 
 body {
   background-color: $color-background;
