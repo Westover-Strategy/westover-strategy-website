@@ -33,11 +33,11 @@
       }
 
       &:hover {
-        background-color: #eee;
-        border-color: #eee;
+        background-color: darken($color-background-header, 20%);
+        border-color: darken($color-background-header, 20%);
       }
       &:active {
-        border-color: #999;
+        background-color: lighten($color-background-header, 10%);
       }
     }
   }

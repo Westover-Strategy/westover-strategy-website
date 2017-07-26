@@ -7,6 +7,10 @@ body {
   font-family: $text-font-stack;
   @include ms-respond(font-size, 0);
   line-height: $text-line-height;
+
+  @include mappy-bp(medium) {
+    background-image: linear-gradient(to bottom, $color-background-header 125px, $color-background 125px);
+  }
 }
 
 h3 {

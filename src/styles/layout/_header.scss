@@ -1,11 +1,12 @@
 .site-header {
   // grid-column: content-start / content-end;
   // grid-row: header;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
+  position: relative;
 }
 
 .site-title {
-  display: block;
+  display: inline-block;
   font-family: 'JensenRecut-Regular';
   font-size: 18px;
   line-height: 40px;
@@ -19,7 +20,13 @@
   @include mappy-bp(medium) {
     font-size: 30px;
     background-size: 127px;
-    padding: 50px 0 54px 170px;
+    padding: 82px 0 58px 205px;
+    background-position: 35px 35px;
+  }
+
+  @include mappy-bp(large) {
+    background-position-x: 70px;
+    padding-left: 240px;
   }
 }
 
@@ -43,12 +50,39 @@
   &.is-active {
     display: block;
   }
+
+  @include mappy-bp(medium) {
+    display: inherit;
+    text-align: right;
+    > a {
+      display: inline-block;
+      @include ms-respond(font-size, -1);
+      padding: 2px 10px;
+    }
+  }
+
+  @include mappy-bp(large) {
+    position: absolute;
+    right: 0;
+    top: 89px;
+    margin: 0;
+    > a {
+      padding: 9px 20px;
+      // @include ms-respond(font-size, 0);
+      &.active {
+        background-color: $color-background;
+      }
+    }
+  }
 }
 
 .hamburger {
   position: absolute;
   right: 0;
   top: 14px;
+  @include mappy-bp(medium) {
+    display: none;
+  }
 }
 
 .hamburger-label {
