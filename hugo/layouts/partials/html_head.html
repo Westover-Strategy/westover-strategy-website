@@ -1,5 +1,13 @@
+{{ $sectionclass := printf "%s%s" "section-" .Section | lower }}
+{{ $.Scratch.Set "bodyclass" $sectionclass }}
+{{ with .Params.bodyclasses }}
+  {{ $pageclasses := delimit . " " }}
+  {{ $bodyclass := $.Scratch.Get "bodyclass" }}
+  {{ $bodyclass := printf "%s %s" $bodyclass $pageclasses }}
+  {{ $.Scratch.Set "bodyclass" $bodyclass }}
+{{ end }}
 <!doctype html>
-<html class="no-js" lang="{{ .Site.LanguageCode }}">
+<html class="no-js {{ $.Scratch.Get "bodyclass" }}" lang="{{ .Site.LanguageCode }}">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -12,7 +20,12 @@
   {{ end }}
   {{ $browsertitle := $.Scratch.Get "browsertitle" }}
   {{ $title := delimit (slice $browsertitle "&middot;" .Site.Title) " " }}
-  <title>{{ $title }}</title>
+
+  {{ if .IsHome }}
+    <title>{{ .Site.Title }}</title>
+  {{ else }}
+    <title>{{ $title }}</title>
+  {{ end }}
 
   <meta name="description" content="{{ .Description }}">
   <link rel="author" href="{{ "static/humans.txt" | relURL }}" />
@@ -35,12 +48,4 @@
   <script defer src="{{ "static/scripts/main.js" | relURL }}"></script>
   <script src="https://use.fontawesome.com/170b898517.js"></script>
 </head>
-{{ $sectionclass := printf "%s%s" "section-" .Section | lower }}
-{{ $.Scratch.Set "bodyclass" $sectionclass }}
-{{ with .Params.bodyclasses }}
-  {{ $pageclasses := delimit . " " }}
-  {{ $bodyclass := $.Scratch.Get "bodyclass" }}
-  {{ $bodyclass := printf "%s %s" $bodyclass $pageclasses }}
-  {{ $.Scratch.Set "bodyclass" $bodyclass }}
-{{ end }}
-<body class="{{ $.Scratch.Get "bodyclass" }}">
+<body>

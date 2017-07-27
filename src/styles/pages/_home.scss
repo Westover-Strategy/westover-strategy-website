@@ -1,6 +1,52 @@
+.home {
+  height: 100%;
+  body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, $color-background-header 60%, $color-background 60%);
+  }
 
-////
-/// Home
-/// MIT-License © 2016
-/// @author Felix Spöttel
-////
+  .page {
+    width: 100%;
+    max-width: none;
+  }
+
+  .site-header {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, $color-background-header 52px, $color-background 52px);
+    @include mappy-bp(medium) {
+      background-image: linear-gradient(to bottom, $color-background-header 124px, $color-background 124px);
+    }
+  }
+  .hamburger {
+    display: none;
+  }
+  .primary-nav {
+    display: block;
+    margin-top: 1em;
+
+    > a {
+      @include mappy-bp(medium) {
+        display: block;
+        @include ms-respond(font-size, 0);
+        padding: 7px 20px;
+      } 
+    }
+
+    @include mappy-bp(large) {
+      position: static;
+    }
+  }
+  .site-footer {
+    text-align: center;
+    margin: 0;
+    padding-top: 8em;
+    background-color: $color-background;
+  }
+}
