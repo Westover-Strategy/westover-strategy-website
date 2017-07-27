@@ -1,0 +1,84 @@
+.testimonial {
+  grid-column: content-start / content-end;
+  // text-align: center;
+  margin: 1.5em 0;
+  padding: 0;
+  position: relative;
+  &:first-of-type {
+    border-top: solid 1px #999;
+    // padding-top: 3em;
+    margin-top: 3em;
+    &:before {
+      content: '';
+      display: block;
+      height: 3em;
+    }
+    .fa {
+      top: 1.5em;
+    }
+  }
+  &:last-of-type {
+    border-bottom: solid 1px #999;
+    // padding-bottom: 3em;
+    margin-bottom: 3em;
+    &:after {
+      content: '';
+      display: block;
+      height: 3em;
+    }
+  }
+
+  blockquote {
+    margin: 0 3em;
+  }
+
+  footer {
+    margin: 1em 3em 0 3em;
+    &:before {
+      content: "—";
+      position: absolute;
+    }
+  }
+
+  cite {
+    font-style: normal;
+    display: block;
+    margin-left: 1.5em;
+  }
+
+  .fa {
+    position: absolute;
+    font-size: 30px;
+    top: 0;
+    &.fa-quote-left {
+      left: 0;
+    }
+    &.fa-quote-right {
+      right: 0;
+    }
+  }
+
+  @include mappy-bp(medium) {
+    &:first-of-type {
+      .fa {
+        top: 1em;
+      }
+    }
+    blockquote {
+      margin: 0;
+    }
+    footer {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .fa {
+      font-size: 50px;
+      &.fa-quote-left {
+        margin-left: -70px;
+      }
+      &.fa-quote-right {
+        margin-right: -70px;
+      }
+    }
+  }
+}

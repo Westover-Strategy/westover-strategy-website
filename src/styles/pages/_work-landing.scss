@@ -1,23 +1,6 @@
 .work-landing {
-  .client {
-    display: grid;
-    grid-template-columns: 1em [content-start] 1fr 6fr 1fr [content-end] 1em;
-    margin-bottom: 4em;
-
-    &:before {
-      content: '';
-      height: 200px;
-      grid-column: 1 / -1;
-      background-position: center center;
-    }
-
-    @include mappy-bp(medium) {
-      grid-template-columns: 1em 1fr [content-start] 4fr [content-end] 1fr 1em;
-    }
-  }
   .client-name {
     grid-column: content-start / content-end;
-    margin-top: 0.5em;
     font-weight: bold;
   }
   .client-work {
@@ -46,40 +29,6 @@
           }
         }
       }
-    }
-  }
-  .aside {
-    display: none;
-  }
-}
-
-.client {
-  &.branson-bank {
-    &:before {
-      background-image: url('/static/images/work/branson-bank-logo.png');
-      background-size: 200px;
-      background-color: #fff;
-    }
-  }
-  &.center-for-community-health {
-    &:before {
-      background-image: url('/static/images/work/URMC-logo.svg');
-      background-size: 300px;
-      background-color: rgb(0, 70, 127);
-    }
-  }
-  &.lifetime-benefit-solutions {
-    &:before {
-      background-image: url('/static/images/work/lifetime-benefit-solutions-logo.png');
-      background-size: 270px;
-      background-color: #fff;
-    }
-  }
-  &.memorial-art-gallery {
-    &:before {
-      background-image: url('/static/images/work/mag-logo.png');
-      background-size: 270px;
-      background-color: #fff;
     }
   }
 }

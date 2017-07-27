@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <div class="content-container client {{ .Params.client | urlize }}">
+    {{ with .Params.headerimage }}
+      <img src="/static/images/work/{{ . }}.jpg" srcset="/static/images/work/{{ . }}.jpg 1x, /static/images/work/{{ . }}@2x.jpg 2x" alt="{{ $.Params.client }}" class="header-image"/>
+    {{ end }}
+    <article class="content case-study">
+      <h1 class="client-name">{{ .Params.client }}</h1>
+      <h2 class="case-name">{{ .Title }}</h2>
+      {{ .Content }}
+    </article>
+    {{ with .Params.testimonials }}
+      {{ range . }}
+        <figure class="testimonial">
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+          <blockquote>{{ .quote }}</blockquote>
+          <footer>
+            <cite class="name">{{ .name }}</cite><cite class="jobtitle">{{ .title }}</cite><cite class="organization">{{ .organization }}</cite>
+          </footer>
+          <i class="fa fa-quote-right" aria-hidden="true"></i>
+        </figure>
+      {{ end }}
+    {{ end }}
+    <a href="/work" class="explore-cases">Explore the rest of our cases<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+  </div>
+{{ end }}

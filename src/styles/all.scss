@@ -36,10 +36,15 @@
 // Components are singular, composable abstractions. Examples of a component are buttons or data-tables.
 // Components do one thing and one thing only and should be re-usable.
 @import
+  "components/case-study",
+  "components/client",
+  "components/explore-cases",
   "components/feature-blocks",
+  "components/header-image",
   "components/our-mission",
   "components/publications-list",
-  "components/susan-byrd";
+  "components/susan-byrd",
+  "components/testimonial";
 
 // 5. Layout
 // Layouts organize the main parts of the page. Examples are headers, navbars or forms.

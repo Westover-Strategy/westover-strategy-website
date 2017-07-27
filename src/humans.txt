@@ -1,14 +1,12 @@
 /* TEAM */
-Developer:
-Site:
-Twitter:
-Location:
+Copywriter: Susan Powell Byrd
+Location: Rochester, NY
 
-/* THANKS */
-Name:
+Developer: Ernie Bello
+Twitter: @ebello
+Location: New York, NY
 
 /* SITE */
-Last update:
-Standards:
-Components:
-Software:
+Standards: HTML5, CSS3, ES6
+Components: 
+Software: Hugo, blaupause, Visual Studio Code

@@ -5,7 +5,13 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {{ $title := delimit (slice .Title "&middot;" .Site.Title) " " }}
+  {{ if isset .Params "browsertitle" }}
+    {{ $.Scratch.Set "browsertitle" .Params.browsertitle }}
+  {{ else }}
+    {{ $.Scratch.Set "browsertitle" .Title }}
+  {{ end }}
+  {{ $browsertitle := $.Scratch.Get "browsertitle" }}
+  {{ $title := delimit (slice $browsertitle "&middot;" .Site.Title) " " }}
   <title>{{ $title }}</title>
 
   <meta name="description" content="{{ .Description }}">

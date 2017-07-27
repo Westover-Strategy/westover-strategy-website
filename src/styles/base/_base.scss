@@ -2,6 +2,13 @@ html {
   background-color: $color-background;
 }
 
+a {
+  color: #000;
+  &:hover {
+    color: complement(#5a7e92);
+  }
+}
+
 audio,
 embed,
 iframe,
