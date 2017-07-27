@@ -1,5 +1,7 @@
 The public facing website for Westover Strategy, Inc.
 
+All content © Westover Strategy, Inc.
+
 ---
 
 ## Hugo starter kit

@@ -41,5 +41,5 @@ gulp.task('watch', ['build'], () => {
 
   watch([cfg.styles.watch, cfg.styles.sourcePath], () => runSequence('styles:clean', 'styles:build'));
 
-  watch([cfg.svg.sourcePath], () => runSequence('svg:clean', 'svg:build', 'reload'));
+  // watch([cfg.svg.sourcePath], () => runSequence('svg:clean', 'svg:build', 'reload'));
 });

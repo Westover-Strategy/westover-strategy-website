@@ -8,7 +8,7 @@ const isProduction = argv.p;
 
 const buildTasks = [
   'build:clean',
-  ['copy:build', 'hugo:build', 'images:build', 'modernizr:build', 'scripts:build', 'styles:build', 'svg:build']
+  ['copy:build', 'hugo:build', 'images:build', 'modernizr:build', 'scripts:build', 'styles:build']
 ];
 
 const postBuildTasks = (isProduction) ? ['html-hint', 'hash', 'hash-replace', 'html-min'] : ['html-hint'];

@@ -3,4 +3,8 @@
   // grid-row: footer;
   margin: 2em 1em 1em 1em;
   @include ms-respond(font-size, -1);
+
+  @include mappy-bp(medium) {
+    text-align: center;
+  }
 }
