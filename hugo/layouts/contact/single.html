@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <div class="content-container">
+    <article class="content">
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
+      <form name="contact" action="thank-you" data-netlify="true">
+        <ol>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required/>
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required/>
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </li>
+          <li>
+            <button type="submit">Send</button>
+          </li>
+        </ol>
+      </form>
+    </article>
+  </div>
+{{ end }}
