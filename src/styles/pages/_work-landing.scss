@@ -1,7 +1,17 @@
 .work-landing {
   .client-name {
+    max-width: $legacy-max-width;
+    margin-left: auto;
+    margin-right: auto;
+
     grid-column: content-start / content-end;
     font-weight: bold;
+
+    @supports (display: grid) {
+      margin-left: initial;
+      margin-right: initial;
+      max-width: none;
+    }
   }
   .client-work {
     grid-column: content-start / content-end;
@@ -16,6 +26,16 @@
       // justify-self: center;
       // max-width: 50%;
     // }
+    max-width: $legacy-max-width;
+    margin-left: auto;
+    margin-right: auto;
+
+    @supports (display: grid) {
+      margin-left: initial;
+      margin-right: initial;
+      max-width: none;
+    }
+
     > li {
       > a {
         text-decoration: none;

@@ -5,6 +5,7 @@
 
   &:before {
     content: '';
+    display: block;
     height: 200px;
     grid-column: 1 / -1;
     background-position: center center;

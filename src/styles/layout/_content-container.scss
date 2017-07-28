@@ -1,4 +1,13 @@
 .content-container {
+  max-width: $legacy-max-width;
+  margin-left: auto;
+  margin-right: auto;
+  
+  @supports (display: grid) {
+    margin-left: initial;
+    margin-right: initial;
+    max-width: none;
+  }
   display: grid;
   grid-template-columns: 1em [content-start] repeat(3, 1fr) [halfway] repeat(3, 1fr) [content-end] 1em;
   grid-template-rows: [header] auto [content] auto [footer] auto;
