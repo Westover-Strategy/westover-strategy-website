@@ -9,6 +9,7 @@ languageCode: "en-us"
 defaultContentLanguage: "en"
 enableMissingTranslationPlaceholders: false
 paginate: 10
+disableRSS: true
 # Directories
 archetypeDir: "archetypes"
 contentDir: "content"
