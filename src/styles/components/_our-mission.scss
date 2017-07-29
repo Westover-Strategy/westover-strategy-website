@@ -1,7 +1,11 @@
-.our-mission {
+.mission {
   border-top: solid 1px #666;
   border-bottom: solid 1px #666;
   padding-top: 1em;
   padding-bottom: 1em;
   margin-bottom: 2em;
+  
+  h1 {
+    @include ms-respond(font-size, 4);
+  }
 }

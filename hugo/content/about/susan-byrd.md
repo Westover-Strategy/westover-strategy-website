@@ -10,7 +10,7 @@ aside:
     format: "jpg"
     alt: "Susan Byrd"
 ---
-Susan Powell Byrd has extensive experience in all aspects of strategy, based on many years in a wide range of roles and industries, during which she has developed and leveraged her strategic capabilities. She also has in-depth practice using various methodologies to align an organization’s strategic direction with operations. 
+[Susan Powell Byrd](https://www.linkedin.com/in/susan-byrd-b071ba5/) has extensive experience in all aspects of strategy, based on many years in a wide range of roles and industries, during which she has developed and leveraged her strategic capabilities. She also has in-depth practice using various methodologies to align an organization’s strategic direction with operations. 
 
 In 18 years at Xerox, she performed as a General Manager of two successful businesses, Vice President of Strategy, Vice President of Alliances, Vice President of Customer Insight and Vice President of Strategy and Operations, as well as Chief of Staff to the company’s President and to a Division President. A critical skill she honed in these positions was strategy, using the Balanced Scorecard and other methodologies. 
 

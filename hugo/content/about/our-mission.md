@@ -1,5 +1,5 @@
 ---
-title: "Our Mission"
+title: "Mission"
 weight: 1
 ---
-To help clients discover and pursue their strategy.
+Westover helps clients discover, unlock and pursue strategy.
