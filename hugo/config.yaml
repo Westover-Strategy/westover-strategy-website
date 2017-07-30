@@ -3,7 +3,7 @@
 baseurl: "https://westoverstrategyinc.com"
 title: "Westover Strategy, Inc."
 enableRobotsTXT: true
-googleAnalytics: ""
+googleAnalytics: "UA-103587165-1"
 # Content
 languageCode: "en-us"
 defaultContentLanguage: "en"
