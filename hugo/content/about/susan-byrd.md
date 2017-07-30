@@ -5,9 +5,8 @@ weight: 2
 aside:
   image:
     name: "susan-byrd"
-    width: "200"
-    height: "200"
-    format: "jpg"
+    width: "150"
+    format: "png"
     alt: "Susan Byrd"
 ---
 [Susan Powell Byrd](https://www.linkedin.com/in/susan-byrd-b071ba5/) has extensive experience in all aspects of strategy, based on many years in a wide range of roles and industries, during which she has developed and leveraged her strategic capabilities. She also has in-depth practice using various methodologies to align an organization’s strategic direction with operations. 

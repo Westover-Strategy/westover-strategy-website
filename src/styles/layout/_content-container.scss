@@ -14,6 +14,7 @@
 
   @include mappy-bp(medium) {
     grid-template-columns: 1em 1fr [content-start] repeat(2, 1fr) [halfway] repeat(2, 1fr) [content-end] 1fr 1em;
+    grid-column-gap: 1em;
   }
 
   @include mappy-bp(large) {

@@ -1,3 +1,9 @@
 article {
   grid-column: content-start / content-end;
+  
+  ol,
+  ul {
+    margin-left: 1em;
+    padding: 0;
+  }
 }

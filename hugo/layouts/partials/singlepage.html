@@ -23,7 +23,7 @@
     {{ with .Params.aside }}
       <aside class="aside">
         {{ with .image }}
-          <img src="/static/images/{{ $section }}/{{ .name }}.{{ .format }}" srcset="/static/images/{{ $section }}/{{ .name }}.{{ .format }} 1x, /static/images/{{ $section }}/{{ .name }}@2x.{{ .format }} 2x" alt="{{ .alt }}" width="{{ .width }}" height="{{ .height }}"/>
+          <img src="/static/images/{{ $section }}/{{ .name }}.{{ .format }}" alt="{{ .alt }}"/>
         {{ end }}
       </aside> 
     {{ end }}
