@@ -13,7 +13,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-collections:
   - name: "contact" 
     label: "Contact" 
     folder: "hugo/content/contact" 
@@ -22,7 +21,6 @@ collections:
     fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-collections:
   - name: "article" 
     label: "Article" 
     folder: "hugo/content/perspectives/articles" 
