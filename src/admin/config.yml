@@ -13,3 +13,29 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+collections:
+  - name: "contact" 
+    label: "Contact" 
+    folder: "hugo/content/contact" 
+    create: false 
+    slug: "{{slug}}"
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+collections:
+  - name: "article" 
+    label: "Article" 
+    folder: "hugo/content/perspectives/articles" 
+    create: true
+    slug: "{{slug}}"
+    fields: 
+      - {label: "Type", name: "type", widget: "hidden", default: "article"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Publication URL", name: "publication.url", widget: "string"}
+      - label: "Authors"
+        name: "publication.authors"
+        widget: "list"
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+      - {label: "Remarks", name: "body", widget: "markdown"}
