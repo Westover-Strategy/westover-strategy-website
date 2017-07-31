@@ -70,6 +70,10 @@ const copy = {
       sourcePath: `${sourcePath}/*.*`,
       destinationPath: assetPath,
     },
+    {
+      sourcePath: `${sourcePath}/admin/*.*`,
+      destinationPath: `${destinationPath}/admin`,
+    },
   ],
 };
 
