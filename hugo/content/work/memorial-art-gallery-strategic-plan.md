@@ -18,7 +18,7 @@ testimonials:
 The Memorial Art Gallery (MAG) had recently appointed Jonathan Binstock as its new director. The Board of Managers decided to hire an outside consultant to work with the director, senior staff and board on a strategic plan. The museum world had changed significantly since the most recent plan and the economic environment had deteriorated. Like many museums, MAG faced financial, technical, customer engagement and cultural challenges.  
 
 ### Approach
-Westover was engaged to develop a deep dive 4-Year Strategic Plan, leveraging the [Strategy Map]({{< relref "work/memorial-art-gallery/strategy-map.md" >}}) already completed. Westover managed four workgroups, with members from the board, staff and community, to expand the financial, customer, internal processes and people and culture objectives in the Strategy Map. 
+Westover was engaged to develop a deep dive 4-Year Strategic Plan, leveraging the [Strategy Map]({{< relref "memorial-art-gallery-strategy-map.md" >}}) already completed. Westover managed four workgroups, with members from the board, staff and community, to expand the financial, customer, internal processes and people and culture objectives in the Strategy Map. 
 
 In parallel, Westover conducted internal and external assessments of MAG and the museum industry, including market research and analysis of customer expectations. These components came together in a deep dive Strategic Plan with six high priority objectives and 13 strategic initiatives. The strategic initiatives are carefully defined, and each has owner(s), measures and timeframe. 
   
