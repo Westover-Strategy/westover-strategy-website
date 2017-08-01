@@ -51,3 +51,34 @@ collections:
         fields:
           - {label: "Name", name: "name", widget: "string"}
       - {label: "Remarks", name: "body", widget: "markdown"}
+  - name: "why" 
+    label: "Why Westover" 
+    folder: "hugo/content/perspectives/why-westover" 
+    create: false
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Features"
+        name: "featureblocks"
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+  - name: "work" 
+    label: "Cases" 
+    folder: "hugo/content/perspectives/work" 
+    create: true
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Browser Title", name: "browsertitle", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Client name", name: "client", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Testimonials"
+        name: "testimonials"
+        widget: "list"
+        fields:
+          - {label: "Quote", name: "quote", widget: "text"}
+          - {label: "Who said it", name: "name", widget: "string"}
+          - {label: "Job title", name: "title", widget: "string"}
+          - {label: "Organization", name: "organization", widget: "string"}
