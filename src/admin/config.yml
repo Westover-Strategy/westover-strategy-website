@@ -53,7 +53,7 @@ collections:
       - {label: "Remarks", name: "body", widget: "markdown"}
   - name: "why" 
     label: "Why Westover" 
-    folder: "hugo/content/perspectives/why-westover" 
+    folder: "hugo/content/why-westover" 
     create: false
     fields: 
       - {label: "Title", name: "title", widget: "string"}
@@ -66,7 +66,7 @@ collections:
           - {label: "Description", name: "description", widget: "text"}
   - name: "work" 
     label: "Cases" 
-    folder: "hugo/content/perspectives/work" 
+    folder: "hugo/content/work" 
     create: true
     fields: 
       - {label: "Title", name: "title", widget: "string"}
