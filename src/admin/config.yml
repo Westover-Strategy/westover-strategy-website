@@ -3,6 +3,7 @@ backend:
   repo: westover-strategy/westover-strategy-website
   branch: master
 media_folder: "src/images/uploads"
+public_folder: "static/images/uploads"
 collections:
   - name: "about" 
     label: "About" 
