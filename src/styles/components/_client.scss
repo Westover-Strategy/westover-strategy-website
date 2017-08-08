@@ -13,46 +13,13 @@
     background-color: #fff;
   }
 
-  // &:before {
-  //   content: '';
-  //   display: block;
-  //   height: 200px;
-  //   grid-column: 1 / -1;
-  //   background-position: center center;
-  //   margin-bottom: 1em;
-  //   background-color: #fff;
-  // }
-
   @include mappy-bp(medium) {
     grid-template-columns: 1em 1fr [content-start] 4fr [content-end] 1fr 1em;
   }
 
-  &.branson-bank {
-    &:before {
-      background-image: url('/static/images/work/branson-bank-logo.png');
-      background-size: 200px;
-    }
-  }
   &.center-for-community-health {
     > header {
       background-color: rgb(0, 70, 127);
-    }
-    &:before {
-      background-image: url('/static/images/work/URMC-logo.svg');
-      background-size: 300px;
-      
-    }
-  }
-  &.lifetime-benefit-solutions {
-    &:before {
-      background-image: url('/static/images/work/lifetime-benefit-solutions-logo.png');
-      background-size: 270px;
-    }
-  }
-  &.memorial-art-gallery {
-    &:before {
-      background-image: url('/static/images/work/mag-logo.png');
-      background-size: 270px;
     }
   }
 }
