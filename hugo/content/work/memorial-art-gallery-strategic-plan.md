@@ -3,6 +3,9 @@ title: "Strategic Plan"
 browsertitle: "Memorial Art Gallery - Strategic Plan"
 description: "Using the Strategy Map as the foundation, Westover developed a deep dive Strategic Plan, with broad participation from the museum's constituencies."
 client: "Memorial Art Gallery"
+header_image: /static/images/uploads/memorial-art-gallery.png
+header_image_width: '270'
+draft: false
 weight: 2
 testimonials:
   - quote: "Westover Chief Executive Susan Byrd was the right person to guide the MAG through its first deep dive strategic plan. Her thoughtful approach produced a plan that reflects market research and analysis as well as input from our many constituencies – museum members, volunteers, donors, staff, board members, and the community. We continue to call on her to help us with challenges as we implement the plan."
@@ -25,4 +28,4 @@ In parallel, Westover conducted internal and external assessments of MAG and the
 ### Results
 The MAG Board of Managers and parent company Board of Trustees approved the Strategic Plan and were impressed with its quality and depth. The museum is currently implementing the plan and making impressive progress towards meeting its targets. The Board of Managers is updated quarterly by Chief Operating Officer and Strategic Plan Champion Patti Giordano.
 
-![Memorial Art Gallery](/static/images/work/Memorial Art Gallery.jpg)
+![Memorial Art Gallery](/static/images/uploads/Memorial Art Gallery.jpg)

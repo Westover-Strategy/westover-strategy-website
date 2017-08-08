@@ -5,7 +5,8 @@ description: >-
   See how Westover helped the Center for Community Health create a one-page
   Strategy Map to establish and communicate its direction.
 client: Center for Community Health
-clientorder: 1
+header_image: /static/images/uploads/center-for-community-health.png
+header_image_width: '300'
 draft: false
 testimonials:
   - name: 'Nancy Bennett, MD, MS'

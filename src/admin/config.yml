@@ -70,6 +70,7 @@ collections:
     folder: "hugo/content/work" 
     create: true
     fields: 
+      - {label: "Draft", name: "draft", widget: "boolean"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Browser Title", name: "browsertitle", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}

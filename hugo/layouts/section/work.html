@@ -4,7 +4,7 @@
     {{ $clientfriendlyname := .Key | urlize }}
     <div class="client {{ $clientfriendlyname }}" id="{{ $clientfriendlyname }}">
       {{ range first 1 .Pages.ByWeight }}
-        <header><img src="/static/images/uploads/{{ $clientfriendlyname }}.png" alt="{{ .Params.client }}"/></header>
+        <header><img src="{{ .Params.header_image }}" width="{{ .Params.header_image_width }}" alt="{{ .Params.client }}"/></header>
       {{ end }}
       <h1 class="client-name">{{ .Key }}</h1>
       <ul class="client-work">

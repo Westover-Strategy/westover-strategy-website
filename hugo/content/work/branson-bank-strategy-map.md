@@ -4,6 +4,8 @@ browsertitle: "Branson Bank - Strategy Map"
 description: "A three-year Strategy Map developed with Westover helps the Branson Bank team focus on key objectives."
 draft: false
 client: "Branson Bank"
+header_image: /static/images/uploads/branson-bank.png
+header_image_width: '200'
 weight: 2
 testimonials:
   - quote: "The Strategy Map is becoming part of our culture. I see several of our associates keeping it close by for referral and leadership is using the Map in planning, goal setting, etc. …The Strategy Map is proving to be a great tool for us already. Thank you."
@@ -26,4 +28,4 @@ CEO Bill Jones presented the Strategy Map to all associates. The associates were
 
 The bank shares progress towards Strategy Map targets with the Board each quarter. The Board and associates value the Strategy Map highly. It is used in numerous ways, including communication with customers, associates, community, regulators and shareholders.
 
-![Branson Bank](/static/images/work/branson-bank.jpg)
+![Branson Bank](/static/images/uploads/branson-bank.jpg)

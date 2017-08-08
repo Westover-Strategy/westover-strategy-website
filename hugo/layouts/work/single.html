@@ -1,8 +1,6 @@
 {{ define "main" }}
   <div class="content-container client {{ .Params.client | urlize }}">
-    {{ with .Params.headerimage }}
-      <img src="/static/images/work/{{ . }}.jpg" srcset="/static/images/work/{{ . }}.jpg 1x, /static/images/work/{{ . }}@2x.jpg 2x" alt="{{ $.Params.client }}" class="header-image"/>
-    {{ end }}
+    <header><img src="{{ .Params.header_image }}" width="{{ .Params.header_image_width }}" alt="{{ .Params.client }}"/></header>
     <article class="content case-study">
       <h1 class="client-name">{{ .Params.client }}</h1>
       <h2 class="case-name">{{ .Title }}</h2>

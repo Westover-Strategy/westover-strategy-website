@@ -4,6 +4,8 @@ browsertitle: "Branson Bank - High-Performing Board Tools and Handbook"
 description: "See how Westover developed a customized set of tools and practices for the Branson Bank board."
 draft: false
 client: "Branson Bank"
+header_image: /static/images/uploads/branson-bank.png
+header_image_width: '200'
 weight: 1
 testimonials:
   - quote: "Thanks to both you and <our Chair> Peter Peitz, for diligent leadership in the High-Performance Board process. The tools I now possess as a result of this work allow me to move ahead purposefully with the confidence of knowing that we will meet our desired objectives."
@@ -30,4 +32,4 @@ Tools developed by Westover for the bank board include: a summary of policies an
 
 The customized tools were compiled in a digital handbook, which was launched and approved enthusiastically by the Branson Bank Board. The digital handbook is a living document, updated periodically and valued by both board and staff.
 
-![Branson Bank](/static/images/work/branson-bank.jpg)
+![Branson Bank](/static/images/uploads/branson-bank.jpg)
