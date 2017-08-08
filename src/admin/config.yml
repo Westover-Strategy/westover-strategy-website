@@ -73,6 +73,8 @@ collections:
       - {label: "Browser Title", name: "browsertitle", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Client name", name: "client", widget: "string"}
+      - {label: "Header image", name: "header_image", widget: "image"}
+      - {label: "Header image width", name: "header_image_width", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Testimonials"
         name: "testimonials"

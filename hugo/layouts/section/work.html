@@ -1,8 +1,11 @@
 {{ define "main" }}
   <!-- Groups content according to the "client" field in front matter -->
   {{ range .Data.Pages.GroupByParam "client" }}
-    <div class="client {{ .Key | urlize }}" id="{{ .Key | urlize }}">
-      <!-- <img src="/static/images/work/{{ .Key | urlize }}.jpg" srcset="/static/images/work/{{ .Key | urlize }}.jpg 1x, /static/images/work/{{ .Key | urlize }}@2x.jpg 2x" alt="{{ .Key }}"/> -->
+    {{ $clientfriendlyname := .Key | urlize }}
+    <div class="client {{ $clientfriendlyname }}" id="{{ $clientfriendlyname }}">
+      {{ range first 1 .Pages.ByWeight }}
+        <header><img src="/static/images/work/{{ $clientfriendlyname }}.png" alt="{{ .Params.client }}"/></header>
+      {{ end }}
       <h1 class="client-name">{{ .Key }}</h1>
       <ul class="client-work">
           {{ range .Pages.ByWeight }}
