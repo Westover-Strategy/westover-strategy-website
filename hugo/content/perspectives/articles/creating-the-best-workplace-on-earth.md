@@ -8,3 +8,4 @@ publication_authors:
   - name: Gareth Jones
 ---
 Culture is a hot topic - and for good reason. This article breaks culture down into manageable components.
+
