@@ -31,7 +31,8 @@ The Map was approved and presented to all employees of the
 affiliate company and its board by President Tom Cauthorn. The employees
 appreciated seeing their roles in the larger context of the company’s
 direction. It was agreed that, as a next step, Westover would facilitate the development
-of a Strategic Plan, building on the Strategy Map.
+of a [Strategic Plan]({{< relref "lifetime-benefit-solutions-strategic-plan.md" >}}), building on the Strategy Map.
 
 ![Lifetime Benefit Solutions](/static/images/uploads/Lifetime Benefit Solutions.jpg)
+
 
