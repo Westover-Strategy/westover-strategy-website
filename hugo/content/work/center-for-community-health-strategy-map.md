@@ -1,4 +1,5 @@
 ---
+draft: false
 title: Strategy Map
 browsertitle: Center for Community Health - Strategy Map
 description: >-
@@ -7,7 +8,6 @@ description: >-
 client: Center for Community Health
 header_image: /static/images/uploads/center-for-community-health.png
 header_image_width: '300'
-draft: false
 testimonials:
   - name: 'Nancy Bennett, MD, MS'
     organization: University of Rochester School of Medicine and Dentistry
@@ -38,3 +38,4 @@ Westover proposed building a one-page 5-Year Strategy Map to articulate the cent
 ### Results
 The Strategy Map is a valuable tool for the Center for Community Health, used to communicate the center’s direction to its many stakeholders, including its parent organization, clients, funders, colleagues, staff and community. The Map is used to help the center continue to pioneer ways to improve community health, based on research, services, education, and policy. Westover CEO, Susan Byrd, is an active member of the Advisory Council.
 
+![Center for Community Health](/static/images/uploads/Center for Community Health.jpg)
