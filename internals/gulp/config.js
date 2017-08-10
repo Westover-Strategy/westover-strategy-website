@@ -97,7 +97,7 @@ const hugo = {
  * @type {Object}
  */
 const images = {
-  sourcePath: `${sourcePath}/images/**/*.{jpg,jpeg,png,gif,svg}`,
+  sourcePath: `${sourcePath}/images/**/*.{jpg,jpeg,png,gif,svg,ico}`,
   destinationPath: `${assetPath}/images`,
   settings: {
     progressive: true,
