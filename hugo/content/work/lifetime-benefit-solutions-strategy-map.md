@@ -8,8 +8,7 @@ description: >-
 client: Lifetime Benefit Solutions
 header_image: /static/images/uploads/lifetime-benefit-solutions.png
 header_image_width: '270'
-testimonials:
-  - {}
+testimonials: []
 weight: 1
 ---
 ### Challenge
@@ -35,3 +34,4 @@ direction. It was agreed that, as a next step, Westover would facilitate the dev
 of a Strategic Plan, building on the Strategy Map.
 
 ![Lifetime Benefit Solutions](/static/images/uploads/Lifetime Benefit Solutions.jpg)
+
