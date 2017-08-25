@@ -1,6 +1,6 @@
 ---
 title: About Westover Strategy, Inc.
-linktitle: About us
+linktitle: About Westover
 menu: "main"
 weight: 1
 ---
