@@ -1,8 +1,25 @@
 .section-perspectives {
   .intro,
   .articles,
-  .books {
+  .books,
+  .insights {
     grid-column: content-start / content-end;
+  }
+
+  .insights {
+    grid-row: 1;
+    border-bottom: solid 1px #666;
+    margin-bottom: 2em;
+  }
+
+  .intro {
+    grid-row: 2;
+    border-bottom: solid 1px #666;
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    p {
+      max-width: 700px;
+    }
   }
 
   @include mappy-bp(medium) {
@@ -11,13 +28,17 @@
     }
     .articles,
     .books {
-      grid-row: 2;
+      grid-row: 3;
     }
     .articles {
       grid-column: 2 / span 3;
     }
     .books {
       grid-column: halfway / span 3;
+    }
+    .insights,
+    .intro {
+      grid-column: 2 / -2;
     }
   }
 
@@ -27,6 +48,10 @@
     }
     .books {
       grid-column: halfway / span 4;
+    }
+    .insights,
+    .intro {
+      grid-column: 3 / -3;
     }
   }
 }
