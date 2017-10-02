@@ -1,8 +1,8 @@
 ---
-type: "insight"
-title: Strategic Planning For Busy People
-header_image: /static/images/uploads/grand-central-station.jpg
+type: insight
+title: Strategic Planning For Busy Executives
 date: '2017-10-02T17:20:04-07:00'
+header_image: /static/images/uploads/grand-central-station.jpg
 ---
 If your organization is like many, you may recognize the importance of strategic planning, yet struggle to find the time and resources to do it effectively. The day-to-day whirlwind keeps intruding and short-term pressures dominate your day, demanding a “heads down” focus. Still, somewhere in the back of your mind, are fears that you may get blindsided because you have not carved out the time to look ahead thoughtfully.<!--more-->
 
@@ -36,3 +36,4 @@ Like having a good personal trainer, engaging an experienced, objective third-pa
 If you struggle to find the time to give your organization the strategic planning it deserves, try this phased approach and prepare for a future you can’t control. 
 
 _Susan Powell Byrd is Chief Executive of consulting firm Westover Strategy, Inc._
+
