@@ -3,6 +3,7 @@
   <header class="content-header"><img src="{{ .Params.header_image }}" alt="{{ .Title }}" class="header-image"/></header>
   <article class="content">
     <h1>{{ .Title }}</h1>
+    <time>{{ .Date.Format "January 2, 2006" }}</time>
     {{ .Content }}
   </article>
   <a href="/perspectives" class="explore-cases">More insights<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
