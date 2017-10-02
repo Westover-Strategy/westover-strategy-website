@@ -16,8 +16,9 @@
 
 # Branch Deploy context: All deploys that are not in
 # an active Deploy Preview will inherit these settings.
-# [context.branch-deploy]
-#  command = "make staging"
+[context.branch-deploy]
+  [context.branch-deploy.environment]
+    HUGO_VERSION = "0.25"
 
 # Specific branch context: Deploys from this branch
 # will take these settings and override their
