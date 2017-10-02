@@ -54,6 +54,16 @@ collections:
         fields:
           - {label: "Name", name: "name", widget: "string"}
       - {label: "Remarks", name: "body", widget: "markdown"}
+  - name: "insight" 
+    label: "Insight" 
+    folder: "hugo/content/perspectives/insights" 
+    create: true
+    fields: 
+      - {label: "Type", name: "type", widget: "hidden", default: "insight"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Header image", name: "header_image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "why" 
     label: "Why Westover" 
     folder: "hugo/content/why-westover" 

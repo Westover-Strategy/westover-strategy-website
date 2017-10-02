@@ -19,6 +19,12 @@ video {
   height: auto;
 }
 
+time {
+  display: inline-block;
+  color: gray;
+  margin-bottom: 1em;
+}
+
 form {
   max-width: 450px;
   > ol.form {
