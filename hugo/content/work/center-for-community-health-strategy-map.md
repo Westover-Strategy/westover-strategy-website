@@ -8,6 +8,7 @@ description: >-
 client: Center for Community Health
 header_image: /static/images/uploads/center-for-community-health.png
 header_image_width: '300'
+landing_image: /static/images/uploads/grand-central-station.jpg
 testimonials:
   - name: 'Nancy Bennett, MD, MS'
     organization: University of Rochester School of Medicine and Dentistry

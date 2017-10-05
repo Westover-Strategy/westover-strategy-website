@@ -5,6 +5,7 @@ description: "A four-year Strategy Map developed with Westover was the first ste
 client: "Memorial Art Gallery"
 header_image: /static/images/uploads/memorial-art-gallery.png
 header_image_width: '270'
+landing_image: /static/images/uploads/grand-central-station.jpg
 draft: false
 weight: 1
 testimonials:

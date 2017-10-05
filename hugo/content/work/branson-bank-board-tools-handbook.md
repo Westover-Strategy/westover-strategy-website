@@ -8,6 +8,7 @@ description: >-
 client: Branson Bank
 header_image: /static/images/uploads/branson-bank.png
 header_image_width: '200'
+landing_image: /static/images/uploads/grand-central-station.jpg
 testimonials:
   - name: Bill Jones
     organization: Branson Bank

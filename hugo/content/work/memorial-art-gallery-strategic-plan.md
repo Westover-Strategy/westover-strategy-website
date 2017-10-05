@@ -5,6 +5,7 @@ description: "Using the Strategy Map as the foundation, Westover developed a dee
 client: "Memorial Art Gallery"
 header_image: /static/images/uploads/memorial-art-gallery.png
 header_image_width: '270'
+landing_image: /static/images/uploads/grand-central-station.jpg
 draft: false
 weight: 2
 testimonials:

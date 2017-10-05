@@ -10,13 +10,22 @@
       <ul class="client-work">
           {{ range .Pages.ByWeight }}
           <li>
-            <a href="{{ .RelPermalink }}">
+            <a href="{{ .RelPermalink }}" class="thumbnail-link">
+              <img src="{{ .Params.landing_image }}" alt="{{ .LinkTitle }}"/>
               <h3>{{ .LinkTitle }}</h3>
-              <p>{{ .Description }} <i class="fa fa-chevron-right" aria-hidden="true"></i></p>
+              <p>{{ .Description }} <i class="fa fa-chevron-right more" aria-hidden="true"></i></p>
             </a>
           </li>
           {{ end }}
       </ul>
     </div>
+    <figure class="testimonial">
+      <i class="fa fa-quote-left" aria-hidden="true"></i>
+      <blockquote>Thanks to both you and &lt;our Chair&gt; Peter Peitz, for diligent leadership in the High-Performance Board process. The tools I now possess as a result of this work allow me to move ahead purposefully with the confidence of knowing that we will meet our desired objectives.</blockquote>
+      <!-- <footer>
+        <cite class="name">Bill Jones</cite><cite class="jobtitle">CEO</cite><cite class="organization">Branson Bank</cite>
+      </footer> -->
+      <i class="fa fa-quote-right" aria-hidden="true"></i>
+    </figure>
   {{ end }}
 {{ end }}

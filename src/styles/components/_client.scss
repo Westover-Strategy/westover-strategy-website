@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1em [content-start] 1fr 6fr 1fr [content-end] 1em;
   margin-bottom: 4em;
+  // margin-bottom: 1em;
 
   > header {
     grid-column: 1 / -1;
