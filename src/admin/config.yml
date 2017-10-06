@@ -12,7 +12,7 @@ collections:
     slug: "{{slug}}"
     fields: 
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Navigation Title", name: "linktitle", widget: "string"}
+      - {label: "Navigation Title", name: "linktitle", widget: "string", required: false}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "contact" 
@@ -22,7 +22,7 @@ collections:
     slug: "{{slug}}"
     fields: 
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Navigation Title", name: "linktitle", widget: "string"}
+      - {label: "Navigation Title", name: "linktitle", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "perspectives" 
     label: "Perspectives" 
@@ -31,7 +31,7 @@ collections:
     slug: "{{slug}}"
     fields: 
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Navigation Title", name: "linktitle", widget: "string"}
+      - {label: "Navigation Title", name: "linktitle", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "article" 
     label: "Article" 
@@ -79,7 +79,7 @@ collections:
     create: false
     fields: 
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Navigation Title", name: "linktitle", widget: "string"}
+      - {label: "Navigation Title", name: "linktitle", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Features"
         name: "featureblocks"
