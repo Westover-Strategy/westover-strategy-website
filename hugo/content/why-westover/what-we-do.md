@@ -36,8 +36,8 @@ featureblocks:
       high-performing boards that provide the underlying organization a
       competitive advantage. During such engagements, Westover works with the
       board to develop a customized list of substantive issues reflected in a
-      board calendar, establish expectations for board members and address board
-      composition, culture and engagement. The process may include a board
+      board calendar, establish expectations for board members, and address
+      board composition, culture and engagement. The process may include a board
       retreat facilitated by Westover.
     title: Board Performance Enhancement
   - description: >-
@@ -47,8 +47,6 @@ featureblocks:
     title: Strategic Projects and Initiatives
 weight: 1
 ---
-Westover Strategy works with both for-profit and not-for-profit organizations in a variety of industries, including healthcare, financial services, fine art and more on confidential strategy consulting engagements that are customized to fit clients’ needs and priorities. See the [Featured Clients section](/work) for case studies and testimonials.
+Westover Strategy works with both for-profit and not-for-profit organizations in a variety of industries, including healthcare, financial services, fine art, and more on confidential strategy consulting engagements that are customized to fit clients’ needs and priorities. See the [Featured Clients section](/work) for case studies and testimonials.
 
 Key offerings include:
-
-
