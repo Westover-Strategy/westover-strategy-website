@@ -47,6 +47,6 @@ featureblocks:
     title: Strategic Projects and Initiatives
 weight: 1
 ---
-Westover Strategy works with both for-profit and not-for-profit organizations in a variety of industries, including healthcare, financial services, fine art, and more on confidential strategy consulting engagements that are customized to fit clients’ needs and priorities. See the [Featured Clients section](/work) for case studies and testimonials.
+Westover Strategy works with organizations in a variety of industries, particularly financial services, but also fine art, healthcare and more on confidential strategy consulting engagements that are customized to fit clients’ needs and priorities. See the [Featured Clients section](/work) for case studies and testimonials.
 
 Key offerings include:
