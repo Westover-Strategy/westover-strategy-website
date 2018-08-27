@@ -50,3 +50,4 @@ weight: 1
 Westover Strategy works with organizations in a variety of industries, particularly financial services, but also fine art, healthcare and more, on confidential strategy consulting engagements that are customized to fit clients’ needs and priorities. See the [Featured Clients section](/work) for case studies and testimonials.
 
 Key offerings include:
+
