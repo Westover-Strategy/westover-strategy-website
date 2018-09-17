@@ -1,6 +1,5 @@
 ---
 bodyclasses: ["home"]
-header_image: /static/images/uploads/home-hero.jpg
 headline: Bringing Clarity to Strategy
 subheader: A clear and forthright approach to developing a company strategy
 quote: Working with Westover has been transformational…
