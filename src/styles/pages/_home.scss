@@ -1,11 +1,16 @@
 .home {
-  height: 100%;
+  // height: 100%;
+  text-align: center;
   body {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to bottom, $color-background-header 60%, $color-background 60%);
+  }
+
+  a {
+    text-decoration: none;
   }
 
   .main {
@@ -32,25 +37,107 @@
     display: none;
   }
   .primary-nav {
-    display: block;
-    margin-top: 1em;
+    display: none;
+    // margin-top: 1em;
 
-    > a {
-      @include mappy-bp(medium) {
-        display: block;
-        @include ms-respond(font-size, 0);
-        padding: 7px 20px;
-      } 
-    }
+    // > a {
+    //   @include mappy-bp(medium) {
+    //     display: block;
+    //     @include ms-respond(font-size, 0);
+    //     padding: 7px 20px;
+    //   }
+    // }
 
-    @include mappy-bp(large) {
-      position: static;
+    // @include mappy-bp(large) {
+    //   position: static;
+    // }
+  }
+  .site-title {
+    margin-left: -8%;
+  }
+  .headline {
+    font-size: 28px;
+    font-weight: 100;
+    margin-top: 25px;
+    margin-bottom: 16px;
+    @include mappy-bp(medium) {
+      font-size: 50px;
     }
   }
-  .site-footer {
-    text-align: center;
+  .subheader {
+    font-size: 18px;
+    @include mappy-bp(medium) {
+      font-size: 20px;
+    }
+  }
+  .content-container {
+    background-color: #D7DBDF;
+  }
+  article {
+    grid-column: 6 / 10;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .content-header {
+    position: relative;
+    height: 455px;
+    overflow: hidden;
+    background-image: url(/static/images/uploads/home-hero.jpg);
+    background-position: center center;
+    background-size: cover;
+
+    @include mappy-bp(medium) {
+      background-position-y: 33%;
+    }
+
+    // width: 1400px;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      // background-image: linear-gradient(to bottom, rgba(255,255,255,0.6), rgba(255,255,255,0.2) 50%);
+      background-image: linear-gradient(to bottom, rgba(#D7DBDF, 1), rgba(255,255,255,0.3) 40%, rgba(255,255,255,0) 51%);
+    }
+    > .content {
+      position: absolute;
+      left: 0;
+      z-index: 100;
+      width: 100%;
+    }
+    // > .header-image {
+    //   // width: 1074px;
+    //   // height: 455px;
+    //   width: 2148px;
+    //   max-width: none;
+    //   position: absolute;
+    //   left: 50%;
+    //   top: 50%;
+    //   margin-left: -50%;
+    //   margin-top: -50%;
+    // }
+  }
+  .feature-blocks {
+    grid-template-columns: 1fr;
+    @include mappy-bp(medium) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .inline-links {
+    margin-top: 4em;
+  }
+  .testimonial {
+    font-style: italic;
+    border: 0;
     margin: 0;
-    padding-top: 8em;
-    background-color: $color-background;
+    .fa {
+      top: 1.6em;
+    }
+    @include mappy-bp(medium) {
+      font-size: 28px;
+    }
   }
 }

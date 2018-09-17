@@ -12,12 +12,21 @@
   margin-bottom: 2em;
 
   > li {
-    border: solid 1px #999;
+    // border: solid 1px #999;
     border-radius: 5px;
     padding: 1.5em 1.5em 0.5em 1.5em;
     margin-bottom: 1em;
     @supports (display: grid) {
       margin: 0;
+    }
+
+    > a {
+      > .description:after {
+        content: "\f054";
+        font: normal normal normal 14px/1 FontAwesome;
+        text-rendering: auto;
+        margin-left: 5px;
+      }
     }
   }
 

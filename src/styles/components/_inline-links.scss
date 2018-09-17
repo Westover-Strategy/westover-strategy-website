@@ -1,0 +1,14 @@
+.inline-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  > li {
+    display: inline-block;
+    border-right: solid 1px #999;
+    padding-right: 10px;
+    margin-right: 5px;
+    &:last-child {
+      border: 0;
+    }
+  }
+}

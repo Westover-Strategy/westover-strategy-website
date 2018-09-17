@@ -42,6 +42,7 @@
   "components/feature-blocks",
   "components/header-image",
   "components/approach",
+  "components/inline-links",
   "components/publications-list",
   "components/susan-byrd",
   "components/testimonial";
@@ -61,6 +62,6 @@
 // 6. Pages
 // The `pages`-folder contains page-specific styles that can't be fit into modules or partials.
 @import
-  // "pages/home",
+  "pages/home",
   "pages/perspectives",
   "pages/work-landing";
