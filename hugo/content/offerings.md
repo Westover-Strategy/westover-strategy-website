@@ -3,7 +3,7 @@ title: Offerings
 menu: "main"
 weight: 2
 ---
-Westover offers a range of strategy services, customized to client needs and resources:
+Westover helps clients discover, unlock and pursue strategy. We offer a range of strategy services, customized to client needs and resources:
 
 **Strategy Assessment**<br/>
 Westover’s objective strategy assessment helps clients appreciate how gaps in their Strategic Plan may present barriers to sustainable growth. 
