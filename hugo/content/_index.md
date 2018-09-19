@@ -1,7 +1,7 @@
 ---
 bodyclasses: ["home"]
 headline: Bringing Clarity to Strategy
-subheader: A clear and forthright approach to developing a company strategy
+subheader: A clear and forthright approach to strategy
 quote: Working with Westover has been transformational…
 featureblocks:
   - description: >-

@@ -15,7 +15,7 @@ Westover works with companies to articulate the mission, vision, and values and 
 Where a more in-depth approach is needed, Westover works with clients to expand on the Strategy Map and develop more detailed, well-considered 3 to 5-year Strategic Plans, including specific Strategic Initiatives, metrics and timeframe. Advice on communication and execution is also provided. 
 
 **Strategy Execution**<br/>
-Westover provides leadership and resources to clients that may require external support in accomplishing aspects of their Strategic Plan.
+Westover provides leadership and resources to clients that may require external support to accomplish and/or update aspects of their Strategic Plan.
 
 **Board Performance Enhancement**<br/>
-A hallmark of successful organizations is a board that is a Strategic Asset. Westover works with boards to enhance their performance and become and remain a Strategic Asset for the company.
+A hallmark of successful organizations is a board that is a Strategic Asset. Westover works with boards to enhance their performance to become and remain a Strategic Asset for the company.
