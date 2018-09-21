@@ -1,17 +1,9 @@
 ---
-title: "Approach"
+title: "Customizable Approach"
 weight: 1
 ---
-Westover works with companies in a range of industries experiencing disruption, particularly financial services, but also healthcare, museums and others. In this fast-moving world, even successful companies benefit from stepping back and taking a longer-term perspective on factors such as emerging competitors, new technology, evolving customer expectations, and their impact on the business model, organization and board of directors. 
+In this fast-moving world, even successful companies benefit from stepping back and taking a longer-term perspective on factors such as emerging competitors, new technology, evolving customer expectations, and their impact on the business model, organization and board of directors. Using a team-based approach, we will meet to review the goals, challenges, threats and opportunities your company is facing. Many companies have found stepping back from the day-to-day frenzy of business, and taking a longer-term perspective drives refinement of a business's strategic path, and this can be reflected in a Strategy Map and Strategic Plan. Additionally, working with the company's board can help focus its efforts to insure that it is a strategic asset in providing guidance to the business.
 
-A longer-term perspective often drives the company to refine its strategic path, and reflect it in a Strategy Map, Strategic Plan, and tools to help the board become and remain a Strategic Asset.
+Susan Powell Byrd is the primary consultant and works with senior staff, board members and others as needed, to customize the approach so that it reflects the issues, needs and resources of your particular business.
 
-Westover offers a full range of strategy services, customized to fit client needs and resources, working with senior staff, board members, and others as appropriate. The services frequently include offsite meetings facilitated by Ms. Byrd, as well as advice on communication and execution. 
-
-The primary consultant is Susan Powell Byrd; other resources are brought into engagements as needed, tapping into her network of seasoned professionals.
-
-The 3-step engagement process is straightforward:
-
-* Meet with the prospective client to ask questions and discuss concerns and goals
-* Review pertinent client information and clarify desired outcome, timeframe, and resources
-* Submit a proposal, incorporate client feedback and confirm the engagement
+We offer a range of services, from basic assessments to full-fledged, deep dive strategic plans and board performance enhancement.  Depending on the breadth of the service, other resources can be brought into engagements, tapping into a wide network of seasoned professionals.

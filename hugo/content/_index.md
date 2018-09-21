@@ -5,15 +5,15 @@ subheader: A clear and forthright approach to strategy
 quote: Working with Westover has been transformational…
 featureblocks:
   - description: >-
-      Westover provides strategy services to companies in industries experiencing disruption.
-    title: Approach
+      Strategy services are designed to support clients in industries experiencing disruption. The services are customized and flexible to suit the client’s issues, opportunities, and resources.
+    title: Customizable Approach
     location: /approach
   - description: >-
-      Westover offers a full range of strategy services, customized to client needs and resources.
-    title: Offerings
-    location: /offerings
+      Insights into strategy and execution challenges, including pertinent materials authored by Ms. Byrd and some of her favorite experts are available for you to read and respond with insights of your own.
+    title: Perspectives
+    location: /perspectives
   - description: >-
-      Westover’s clients represent a range of industries, particularly financial services, but also healthcare, museums and others.
+      See a diverse set of clients across a range of industries, large and small, and learn how strategy consulting has helped clear their path forward.
     title: Clients
     location: /work
 ---
