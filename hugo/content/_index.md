@@ -2,7 +2,11 @@
 bodyclasses: ["home"]
 headline: Bringing Clarity to Strategy
 subheader: A clear and forthright approach to strategy
-quote: Working with Westover has been transformational…
+testimonials:
+  - quote: Working with Westover has been transformational…
+    name: Jonathan Binstock
+    title: Director
+    organization: Memorial Art Gallery
 featureblocks:
   - description: >-
       Strategy services are designed to support clients in industries experiencing disruption. The services are customized and flexible to suit the client’s issues, opportunities, and resources.

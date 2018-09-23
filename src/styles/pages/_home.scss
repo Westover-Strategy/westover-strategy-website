@@ -22,12 +22,16 @@
     max-width: none;
   }
 
+  .content-intro {
+    background-color: $color-background;
+  }
   .site-header {
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    text-align: left;
     background-image: linear-gradient(to bottom, $color-background-header 52px, $color-background 52px);
     @include mappy-bp(medium) {
       background-image: linear-gradient(to bottom, $color-background-header 124px, $color-background 124px);
@@ -52,13 +56,13 @@
     //   position: static;
     // }
   }
-  .site-title {
-    margin-left: -8%;
-  }
+  // .site-title {
+  //   margin-left: -8%;
+  // }
   .headline {
     font-size: 28px;
     font-weight: 100;
-    margin-top: 25px;
+    margin-top: 0;
     margin-bottom: 16px;
     @include mappy-bp(medium) {
       font-size: 50px;
@@ -130,14 +134,23 @@
     margin-top: 4em;
   }
   .testimonial {
-    font-style: italic;
     border: 0;
     margin: 0;
-    .fa {
-      top: 1.6em;
+    display: flex;
+    flex-flow: column;
+    // .fa {
+    //   top: 1.6em;
+    // }
+    blockquote {
+      font-style: italic;
+      @include mappy-bp(medium) {
+        font-size: 28px;
+      }
     }
-    @include mappy-bp(medium) {
-      font-size: 28px;
+    footer {
+      text-align: left;
+      align-self: flex-end;
+      font-size: 0.8em;
     }
   }
 }
