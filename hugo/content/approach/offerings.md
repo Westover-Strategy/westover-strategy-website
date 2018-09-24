@@ -2,7 +2,7 @@
 title: Service Offerings
 weight: 2
 ---
-Our strategy services are customized to client needs and resources. and cover a range of levels, from basic assessments to full-fledged, deep dive strategic plans and board performance enhancement. In addition to strategy development, the services frequently include offsite meetings facilitated by Ms. Byrd, as well as advice on communication and execution.
+Our strategy services are customized to client needs and resources and cover a range of levels, from basic assessments to full-fledged, deep dive strategic plans and board performance enhancement. In addition to strategy development, the services frequently include offsite meetings facilitated by Ms. Byrd, as well as advice on communication and execution.
 
 ![Levels of Strategic Planning](/static/images/uploads/strategic-planning-levels.png)
 

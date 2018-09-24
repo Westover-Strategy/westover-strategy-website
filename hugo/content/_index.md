@@ -10,7 +10,7 @@ testimonials:
 featureblocks:
   - description: >-
       Strategy services are designed to support clients in industries experiencing disruption. The services are customized and flexible to suit the client’s issues, opportunities, and resources.
-    title: Customizable Approach
+    title: A Customizable Approach
     location: /approach
   - description: >-
       Insights into strategy and execution challenges, including pertinent materials authored by Ms. Byrd and some of her favorite experts are available for you to read and respond with insights of your own.

@@ -1,5 +1,5 @@
 ---
-title: "Customizable Approach"
+title: "A Customizable Approach"
 weight: 1
 ---
 In this fast-moving world, even successful companies benefit from stepping back and taking a longer-term perspective on factors such as emerging competitors, new technology, evolving customer expectations, and their impact on the business model, organization and board of directors.
