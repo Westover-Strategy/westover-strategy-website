@@ -1,2 +1,40 @@
 {{ define "main" }}
+  <div class="content-intro">
+    <h1 class="headline">{{ .Params.headline }}</h1>
+    <h2 class="subheader">{{ .Params.subheader }}</h2>
+  </div>
+  <header class="content-header">
+    <!-- <img src="{{ .Params.header_image }}" alt="{{ .Title }}" class="header-image"/> -->
+  </header>
+  <div class="content-container">
+    {{ with .Params.featureblocks }}
+      <ul class="feature-blocks">
+        {{ range . }}
+          <li>
+            <a href="{{ .location }}" onclick="ga('send', 'event', {transport: 'beacon', eventAction: 'click', eventCategory: 'Home links', eventLabel: '{{ .title }}'});">
+              <h1 class="title">{{ .title }}</h1>
+              <p class="description">{{ .description }}</p>
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  </div>
+  <div class="content-container">
+    {{ with .Params.testimonials }}
+      {{ range . }}
+        <figure class="testimonial">
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+          <blockquote>{{ .quote }}</blockquote>
+          <footer>
+            <cite class="name">{{ .name }}</cite><cite class="jobtitle">{{ .title }}</cite><cite class="organization">{{ .organization }}</cite>
+          </footer>
+          <i class="fa fa-quote-right" aria-hidden="true"></i>
+        </figure>
+      {{ end }}
+    {{ end }}
+  </div>
+  <ul class="inline-links">
+    <li><a href="/contact">Contact</a></li>
+  </ul>
 {{ end }}
