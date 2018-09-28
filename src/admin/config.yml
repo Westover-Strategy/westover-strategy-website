@@ -5,39 +5,40 @@ backend:
 media_folder: "src/images/uploads"
 public_folder: "static/images/uploads"
 collections:
-  - name: "about" 
-    label: "About" 
-    folder: "hugo/content/about" 
-    create: false 
+  - name: "approach"
+    label: "Approach"
+    folder: "hugo/content/approach"
+    create: false
     slug: "{{slug}}"
-    fields: 
+    fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Navigation Title", name: "linktitle", widget: "string", required: false}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Order", name: "weight", widget: "number"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "contact" 
-    label: "Contact" 
-    folder: "hugo/content/contact" 
-    create: false 
+  - name: "contact"
+    label: "Contact"
+    folder: "hugo/content/contact"
+    create: false
     slug: "{{slug}}"
-    fields: 
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Navigation Title", name: "linktitle", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "perspectives" 
-    label: "Perspectives" 
-    folder: "hugo/content/perspectives" 
-    create: false 
-    slug: "{{slug}}"
-    fields: 
+    fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Navigation Title", name: "linktitle", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "article" 
-    label: "Article" 
-    folder: "hugo/content/perspectives/articles" 
+  - name: "perspectives"
+    label: "Perspectives"
+    folder: "hugo/content/perspectives"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Navigation Title", name: "linktitle", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "article"
+    label: "Article"
+    folder: "hugo/content/perspectives/articles"
     create: true
-    fields: 
+    fields:
       - {label: "Type", name: "type", widget: "hidden", default: "article"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
@@ -48,11 +49,11 @@ collections:
         fields:
           - {label: "Name", name: "name", widget: "string"}
       - {label: "Remarks", name: "body", widget: "markdown"}
-  - name: "book" 
-    label: "Book" 
-    folder: "hugo/content/perspectives/books" 
+  - name: "book"
+    label: "Book"
+    folder: "hugo/content/perspectives/books"
     create: true
-    fields: 
+    fields:
       - {label: "Type", name: "type", widget: "hidden", default: "book"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
@@ -63,35 +64,21 @@ collections:
         fields:
           - {label: "Name", name: "name", widget: "string"}
       - {label: "Remarks", name: "body", widget: "markdown"}
-  - name: "insight" 
-    label: "Insight" 
-    folder: "hugo/content/perspectives/insights" 
+  - name: "insight"
+    label: "Insight"
+    folder: "hugo/content/perspectives/insights"
     create: true
-    fields: 
+    fields:
       - {label: "Type", name: "type", widget: "hidden", default: "insight"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Header image", name: "header_image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "why" 
-    label: "Why Westover" 
-    folder: "hugo/content/why-westover" 
-    create: false
-    fields: 
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Navigation Title", name: "linktitle", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Features"
-        name: "featureblocks"
-        widget: "list"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-  - name: "work" 
-    label: "Cases" 
-    folder: "hugo/content/work" 
+  - name: "work"
+    label: "Cases"
+    folder: "hugo/content/work"
     create: true
-    fields: 
+    fields:
       - {label: "Draft", name: "draft", widget: "boolean"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Browser Title", name: "browsertitle", widget: "string"}
@@ -109,3 +96,30 @@ collections:
           - {label: "Who said it", name: "name", widget: "string"}
           - {label: "Job title", name: "title", widget: "string"}
           - {label: "Organization", name: "organization", widget: "string"}
+  - name: "landing"
+    label: "Home Page"
+    delete: false
+    files:
+      - name: "home"
+        label: "Home"
+        file: "hugo/content/_index.md"
+        fields:
+          - {label: "Body classes", name: "bodyclasses", widget: "hidden", default: ["home"]}
+          - {label: "Headline", name: "headline", widget: "text"}
+          - {label: "Subheader", name: "subheader", widget: "text"}
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            required: false,
+            fields:
+              - {label: "Quote", name: "quote", widget: "text"}
+              - {label: "Who said it", name: "name", widget: "string"}
+              - {label: "Job title", name: "title", widget: "string"}
+              - {label: "Organization", name: "organization", widget: "string"}
+              - label: "Features"
+                name: "featureblocks"
+                widget: "list"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Description", name: "description", widget: "text"}
+                  - {label: "Location", name: "location", widget: "text"}
