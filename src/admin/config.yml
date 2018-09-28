@@ -116,10 +116,10 @@ collections:
               - {label: "Who said it", name: "name", widget: "string"}
               - {label: "Job title", name: "title", widget: "string"}
               - {label: "Organization", name: "organization", widget: "string"}
-              - label: "Features"
-                name: "featureblocks"
-                widget: "list"
-                fields:
-                  - {label: "Title", name: "title", widget: "string"}
-                  - {label: "Description", name: "description", widget: "text"}
-                  - {label: "Location", name: "location", widget: "text"}
+          - label: "Features"
+            name: "featureblocks"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Location", name: "location", widget: "text"}
