@@ -1,3 +1,22 @@
 <script src="https://use.fontawesome.com/170b898517.js"></script>
+{{ if .IsHome }}
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "{{ .Permalink }}",
+      "name": "{{ .Site.Title }}",
+    }
+  </script>
+{{ else }}
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "{{ .Permalink }}",
+      "name": "{{ .Title }}",
+    }
+  </script>
+{{ end }}
 </body>
 </html>

@@ -23,15 +23,28 @@
 
   {{ if .IsHome }}
     <title>{{ .Site.Title }}</title>
+    <meta property="og:title" content="{{ .Site.Title }}" />
+    <meta name="twitter:title" content="{{ .Site.Title }}" />
   {{ else }}
     <title>{{ $title }}</title>
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta name="twitter:title" content="{{ .Title }}" />
   {{ end }}
 
   <meta name="description" content="{{ .Description }}">
+  <meta property="og:description" content="{{ .Description }}" />
+  <meta name="twitter:description" content="{{ .Description }}" />
   <link rel="author" href="{{ "static/humans.txt" | relURL }}" />
   <link rel="shortcut icon" href="/static/images/favicon.ico" />
-  {{ if .Permalink }} 
+  {{ if .Permalink }}
     <link rel="canonical" href="{{ .Permalink }}">
+    <meta property="og:url" content="{{ .Permalink }}" />
+  {{ end }}
+
+  {{ if isset .Params "header_image" }}
+    <meta name="image" content="{{ .Params.header_image }}">
+    <meta property="og:image" content="{{ .Params.header_image }}" />
+    <meta name="twitter:image" content="{{ .Params.header_image }}" />
   {{ end }}
 
   <!-- <link rel="manifest" href="{{ "static/manifest.json" | relURL }}"> -->
